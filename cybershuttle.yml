@@ -1,0 +1,27 @@
+project:
+  name: "test"
+  description: "test"
+  homepage: https://github.com/cyber-shuttle/fenics_surfing_test
+  authors:
+    - pjaya001@odu.edu
+  tags:
+    - CISSE25
+
+workspace:
+  location: /workspace
+  resources:
+    min_cpu: 4
+    min_gpu: 0
+    min_mem: 4096
+    gpu_mem: 1024
+  model_collection: []
+  data_collection: []
+
+additional_dependencies:
+  conda:
+    - python=3.10
+    - pip
+    - fenics-dolfinx
+    - mpich
+    - pyvista
+  pip: []
