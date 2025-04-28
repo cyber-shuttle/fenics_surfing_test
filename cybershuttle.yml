@@ -1,6 +1,6 @@
 project:
-  name: "test"
-  description: "test"
+  name: "FENICS Test"
+  description: "Notebook for FENICS Surfing Test"
   homepage: https://github.com/cyber-shuttle/fenics_surfing_test
   authors:
     - pjaya001@odu.edu
