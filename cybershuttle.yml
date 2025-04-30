@@ -4,6 +4,7 @@ project:
   homepage: https://github.com/cyber-shuttle/fenics_surfing_test
   authors:
     - pjaya001@odu.edu
+    - spamidig@gatech.edu
   tags:
     - CISSE25
 
@@ -12,7 +13,7 @@ workspace:
   resources:
     min_cpu: 4
     min_gpu: 0
-    min_mem: 4096
+    min_mem: 8192
     gpu_mem: 1024
   model_collection: []
   data_collection: []
@@ -21,7 +22,30 @@ additional_dependencies:
   conda:
     - python=3.10
     - pip
-    - fenics-dolfinx
-    - mpich
-    - pyvista
-  pip: []
+    - numpy=2
+    - pandas=2
+    - psycopg2
+    - postgresql
+    - pytest
+    - psi4
+    - jupyter
+    - requests
+    - setuptools
+    - pytorch::torchtriton
+    - pytorch-cpu=2.5.1
+    - torchaudio
+    - torchvision
+    - torch-scatter
+    - pytorch_geometric
+    - pytorch-minimize
+    - matplotlib
+    - pydantic=1
+    - scipy=1.15
+    - tqdm
+  pip:
+    - cdsg-tools
+    - qm-tools-aw==1.4.5
+    - qcmlforge==0.0.4
+    - qcfractal==0.59
+    - qcmanybody
+    - qcfractalcompute==0.59
