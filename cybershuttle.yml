@@ -11,9 +11,9 @@ project:
 workspace:
   location: /workspace
   resources:
-    min_cpu: 4
+    min_cpu: 8
     min_gpu: 0
-    min_mem: 8192
+    min_mem: 16384
     gpu_mem: 1024
   model_collection: []
   data_collection: []
@@ -22,30 +22,9 @@ additional_dependencies:
   conda:
     - python=3.10
     - pip
-    - numpy=2
-    - pandas=2
-    - psycopg2
-    - postgresql
-    - pytest
-    - psi4
-    - jupyter
-    - requests
-    - setuptools
-    - pytorch::torchtriton
-    - pytorch-cpu=2.5.1
-    - torchaudio
-    - torchvision
-    - torch-scatter
-    - pytorch_geometric
-    - pytorch-minimize
-    - matplotlib
-    - pydantic=1
-    - scipy=1.15
-    - tqdm
-  pip:
-    - cdsg-tools
-    - qm-tools-aw==1.4.5
-    - qcmlforge==0.0.4
-    - qcfractal==0.59
-    - qcmanybody
-    - qcfractalcompute==0.59
+    - fenics-dolfinx
+    - fenics-ufl
+    - mpi4py
+    - petsc4py
+    - numpy
+  pip: []
