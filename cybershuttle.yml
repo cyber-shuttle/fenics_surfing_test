@@ -3,8 +3,7 @@ project:
   description: "Notebook for FENICS Surfing Test"
   homepage: https://github.com/cyber-shuttle/fenics_surfing_test
   authors:
-    - pjaya001@odu.edu
-    - spamidig@gatech.edu
+    - adahal8@gatech.edu
   tags:
     - CISSE25
 
