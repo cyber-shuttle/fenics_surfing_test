@@ -10,7 +10,7 @@ project:
 
 workspace:
   resources:
-    min_cpu: 8
+    min_cpu: 1
     min_mem: 16384
     min_gpu: 0
     gpu_mem: 0
