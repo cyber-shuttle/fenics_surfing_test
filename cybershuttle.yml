@@ -26,4 +26,6 @@ additional_dependencies:
     - mpi4py
     - petsc4py
     - numpy
+    - paraview=5.12.1
+    - fmt=11
   pip: []
